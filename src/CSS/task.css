@@ -1,0 +1,39 @@
+.tasks{
+    flex-direction: column;
+    width: 100%;
+}
+.task{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    gap:5px;
+    margin: 5px;
+    padding: 10px 30px;
+    min-width: 300px;
+}
+.task__row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.task__task-buttons{
+    display: flex;
+    margin-left: auto;
+}
+.task__task-input-edit{
+    flex:1;
+    overflow-wrap: break-word;
+}
+.task__task-completed{
+    text-decoration: line-through;
+}
+.task__task-title{
+    
+    font-size: 1.25rem;
+    max-width: 70%;
+    overflow-wrap: break-word;
+    flex: 0 1 auto;
+}

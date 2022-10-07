@@ -1,0 +1,25 @@
+
+.add-task__add-task-holder{
+    display: flex;
+    align-items: center;
+    height: auto;
+    min-height: 100px;
+    gap:5px;
+    }
+.add-task__row{
+    display: flex;
+    align-items: left;
+    min-height: 100px;
+    gap:20px;
+}
+.add-task__text-field{
+    width: auto;
+    flex: 1;
+    
+}
+.add-task__add-task-button{
+    display: flex;
+    min-height: 55px;
+    margin-left: 100px;
+    flex: 0 1 auto;
+    }
